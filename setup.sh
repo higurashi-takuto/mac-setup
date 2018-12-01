@@ -28,7 +28,7 @@ brew install nodenv pyenv pyenv-virtualenv
 # Python
 sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
 env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install $(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1)
-env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.6.6
+env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install $(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3.6\.?*' | tail -1)
 pyenv virtualenv 3.6.6 global
 pyenv global global
 pip install --upgrade pip
