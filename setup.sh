@@ -33,3 +33,7 @@ pyenv virtualenv 3.6.6 global
 pyenv global global
 pip install --upgrade pip
 pip install flake8
+
+# Heroku
+brew install heroku/brew/heroku
+heroku login
