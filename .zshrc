@@ -54,3 +54,6 @@ function texpdf(){
     platex $1.tex
     dvipdfmx $1.dvi
 }
+function profile(){
+    echo -e "\033]1337;SetProfile=$1\a"
+}
