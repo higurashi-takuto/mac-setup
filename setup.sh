@@ -37,3 +37,11 @@ pip install flake8
 # Heroku
 brew install heroku/brew/heroku
 heroku login
+
+# TeX
+brew cask install basictex
+brew install ghostscript
+sudo tlmgr update --self --all
+sudo tlmgr install collection-langjapanese
+sudo mktexlsr
+sudo kanji-config-updmap-sys tp
