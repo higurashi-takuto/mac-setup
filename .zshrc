@@ -52,6 +52,7 @@ function makeapp(){
 }
 function texpdf(){
     platex $1.tex
+    platex $1.tex
     dvipdfmx $1.dvi
 }
 function profile(){
