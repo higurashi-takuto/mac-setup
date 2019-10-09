@@ -5,6 +5,9 @@
 ## .zshrc
 Sublime Text以外は許さん。
 
+## .Brewfile
+Homebrewは便利。
+
 ## インストールするソフト一覧
 #### ブラウザ
 - [Vivaldi](https://vivaldi.com/ja/)
@@ -36,3 +39,4 @@ Sublime Text以外は許さん。
 - [Adobe CC](https://www.adobe.com/jp/creativecloud/catalog/desktop.html)
 - [Glyphs](https://glyphsapp.com/buy)
 - [Sketch](https://www.sketch.com/)
+- [Affinity](https://store.serif.com/ja-jp/account/downloads/)
