@@ -16,3 +16,7 @@ setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
+
+# git
+wget https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
