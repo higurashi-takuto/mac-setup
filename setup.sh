@@ -5,7 +5,7 @@ defaults write com.apple.finder AppleShowAllFiles TRUE
 killall Finder
 
 # Homebrew
-wget https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.Brewfile
+curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.Brewfile
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap homebrew/bundle
 brew bundle --global
@@ -18,5 +18,5 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
 done
 
 # git
-wget https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.gitignore_global
+curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
