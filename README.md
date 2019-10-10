@@ -8,6 +8,9 @@ Sublime Text以外は許さん。
 ## .Brewfile
 Homebrewは便利。
 
+## iTerm2.json
+iTerm2用のプロファイル。
+
 ## インストールするソフト一覧
 #### ブラウザ
 - [Vivaldi](https://vivaldi.com/ja/)
