@@ -1,6 +1,9 @@
 # macOSのセットアップ
-## shell
-主にzshとpython周りをまとめて入れてます。
+## setup.sh
+```console
+$ xcode-select --install
+$ curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/setup.sh | zsh
+```
 
 ## .zshrc
 Sublime Text以外は許さん。
