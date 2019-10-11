@@ -22,9 +22,9 @@ function mkcd(){
 }
 function pyzsh(){
     if [ $# = 0 ]; then
-        docker run -v /Users/takuto/Google/python:/python --rm -it pyzsh /usr/bin/zsh
+        docker run -v /Users/takuto/:/takuto --rm -it pyzsh /usr/bin/zsh
     elif [ $# = 1 ]; then
-        docker run -v /Users/takuto/Google/python:/python --name $1 -it pyzsh /usr/bin/zsh
+        docker run -v /Users/takuto/:/takuto --name $1 -it pyzsh /usr/bin/zsh
     else
         echo 引数の数が正しくありません。
     fi
