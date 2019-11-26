@@ -16,6 +16,7 @@ setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
+sed -i '' s/'sorin'/'powerline'/ .zprezto/runcoms/zpreztorc
 
 # git
 curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.gitignore_global
@@ -28,8 +29,14 @@ curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.zs
 source .zshrc
 
 # python
-env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install $(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1)
-pyenv virtualenv $(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1) global
+NEWEST_PYTHON_VERSION=$(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1)
+env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install $NEWEST_PYTHON_VERSION
+pyenv virtualenv $NEWEST_PYTHON_VERSION global
 pyenv global global
 pip install --upgrade pip
 pip install flake8
+
+# wallpaper
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/wallpaper/KaguyaLuna.png > Pictures/KaguyaLuna.png
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/wallpaper/HatsuneMiku.png > Pictures/HatsuneMiku.png
+wallpaper set ~/Pictures/KaguyaLuna.png

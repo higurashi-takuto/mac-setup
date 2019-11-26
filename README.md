@@ -5,44 +5,18 @@ $ xcode-select --install
 $ curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/setup.sh | zsh
 ```
 
-## .zshrc
-Sublime Text以外は許さん。
-
 ## .Brewfile
-Homebrewは便利。
+Homebrew は便利。
+
+## .gitignore_global
+macOS 用にいろいろ無視。
+
+## .zshrc
+Sublime Text 以外は許さん。
 
 ## iTerm2.json
-iTerm2用のプロファイル。
+iTerm2 用のプロファイル。
 
-## インストールするソフト一覧
-#### ブラウザ
-- [Vivaldi](https://vivaldi.com/ja/)
-- [Google Chrome](https://www.google.com/intl/ja_ALL/chrome/)
-- [Firefox](https://www.mozilla.org/ja/firefox/new/)
-
-#### ターミナル
-- [iTerm2](https://www.iterm2.com/downloads.html)
-
-#### エディタ
-- [Sublime Text](https://www.sublimetext.com)
-
-#### SNS
-- [Slack](https://slack.com/intl/ja-jp/downloads/osx)
-- [Discord](https://discordapp.com)
-
-#### クラウド/FTP/VPN
-- [Google Drive](https://www.google.com/intl/ja_ALL/drive/download/)
-- [Dropbox](https://www.dropbox.com/ja/downloading)
-- [FileZilla](https://filezilla-project.org/download.php?type=client)
-- [Tunnelblick](https://tunnelblick.net/)
-
-#### 音楽
-- [Google Play Music Desktop Player](https://www.googleplaymusicdesktopplayer.com)
+## 個別でインストールするソフト一覧
 - [UAD SOFTWARE](https://www.uaudio.jp/uad/downloads/)
-- [初音ミク](https://ec.crypton.co.jp/mypage/license)
-
-#### デザイン
-- [Adobe CC](https://www.adobe.com/jp/creativecloud/catalog/desktop.html)
-- [Glyphs](https://glyphsapp.com/buy)
-- [Sketch](https://www.sketch.com/)
 - [Affinity](https://store.serif.com/ja-jp/account/downloads/)
