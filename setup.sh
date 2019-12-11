@@ -25,7 +25,7 @@ git config --global core.excludesfile ~/.gitignore_global
 # .zsh
 echo /usr/local/bin/zsh | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/zsh
-curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.zshrc
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.zshrc >| .zprezto/runcoms/zshrc
 source .zshrc
 
 # python
