@@ -39,6 +39,7 @@ pip install flake8
 pip install jupyterlab
 jupyter notebook --generate-config
 sed -i '' s/'#c.NotebookApp.open_browser = True'/'c.NotebookApp.open_browser = False'/ .jupyter/jupyter_notebook_config.py
+sed -i '' s/"#c.NotebookApp.notebook_dir = ''"/"c.NotebookApp.notebook_dir = '\/Users\/takuto\/'"/ .jupyter/jupyter_notebook_config.py
 launchctl load ~/Library/LaunchAgents/jupyterlab.plist
 
 # wallpaper
