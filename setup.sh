@@ -29,12 +29,17 @@ curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.zs
 source .zshrc
 
 # python
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/jupyterlab.plist > Library/LaunchAgents/jupyterlab.plist
 NEWEST_PYTHON_VERSION=$(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1)
 env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install $NEWEST_PYTHON_VERSION
 pyenv virtualenv $NEWEST_PYTHON_VERSION global
 pyenv global global
 pip install --upgrade pip
 pip install flake8
+pip install jupyterlab
+jupyter notebook --generate-config
+sed -i '' s/'#c.NotebookApp.open_browser = True'/'c.NotebookApp.open_browser = False'/ .jupyter/jupyter_notebook_config.py
+launchctl load ~/Library/LaunchAgents/jupyterlab.plist
 
 # wallpaper
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/wallpaper/KaguyaLuna.png > Pictures/KaguyaLuna.png
