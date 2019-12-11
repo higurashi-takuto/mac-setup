@@ -29,6 +29,7 @@ curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.zsh
 source .zshrc
 
 # python
+\mkdir Library/LaunchAgents
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/jupyterlab.plist > Library/LaunchAgents/jupyterlab.plist
 NEWEST_PYTHON_VERSION=$(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1)
 env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install $NEWEST_PYTHON_VERSION
