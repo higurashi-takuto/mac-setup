@@ -6,7 +6,7 @@
     <string>jupyterlab</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/takuto/.pyenv/versions/global/bin/jupyter</string>
+        <string>/Users/takuto/.pyenv/versions/jupyterlab/bin/jupyter</string>
         <string>lab</string>
     </array>
     <key>RunAtLoad</key>
