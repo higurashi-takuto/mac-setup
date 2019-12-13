@@ -24,6 +24,10 @@ alias ...="cd ../.."
 alias ls="ls -a"
 alias ll="ls -l"
 alias mkdir=mkcd
+alias pylo="pyenv local"
+alias pyac="pyenv activate"
+alias pyde="pyenv deactivate"
+alias pyun="pyenv shell --unset"
 
 # function
 function cd(){
@@ -31,4 +35,12 @@ function cd(){
 }
 function mkcd(){
     \mkdir "$@" && builtin cd "$@"
+}
+function mkpyenv(){
+    PYTHONVERSION=$(pyenv versions | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1 | tr -d ' ')
+    pyenv virtualenv $PYTHONVERSION "$@"
+    pyenv activate "$@"
+    pip install --upgrade pip
+    pip install --upgrade setuptools
+    pyenv deactivate
 }
