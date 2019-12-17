@@ -14,6 +14,12 @@ $ sed -i '' s/"#c.NotebookApp.ip = 'localhost'"/"c.NotebookApp.ip = '0.0.0.0'"/ 
 ## .Brewfile
 Homebrew は便利。
 
+## .Brewfile_lite
+使用頻度の低いものを削除。
+```console
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.Brewfile_lite > .Brewfile
+```
+
 ## .gitignore_global
 macOS 用にいろいろ無視。
 

@@ -5,7 +5,9 @@ defaults write com.apple.finder AppleShowAllFiles TRUE
 killall Finder
 
 # Homebrew
-curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.Brewfile
+if [ ! -e .Brewfile ]; then
+  curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/.Brewfile
+fi
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap homebrew/bundle
 brew bundle --global
