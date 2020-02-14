@@ -28,6 +28,7 @@ alias pylo="pyenv local"
 alias pyac="pyenv activate"
 alias pyde="pyenv deactivate"
 alias pyun="pyenv shell --unset"
+alias freeze="pip freeze > requirements.txt"
 
 # function
 function cd(){
