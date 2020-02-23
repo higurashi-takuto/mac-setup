@@ -1,0 +1,10 @@
+// SublimeLinter Settings - User
+{
+    "paths": {
+        "linux": [],
+        "osx": [
+            "/Users/takuto/.pyenv/versions/sublimetext/bin/"
+        ],
+        "windows": []
+    },
+}

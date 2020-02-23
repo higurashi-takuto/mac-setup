@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Codecs33",
+		"ConvertToUTF8",
+		"Emmet",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"Smart Delete",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SyncedSideBar",
+		"TrailingSpaces",
+		"vue-syntax-highlight"
+	],
+	"repositories":
+	[
+		"https://github.com/vuejs/vue-syntax-highlight.git"
+	]
+}

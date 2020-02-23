@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/User/sublime-dark-theme/MonokaiDark.sublime-color-scheme",
+	"font_face": "Menlo",
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "AdaptiveDark.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
