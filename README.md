@@ -11,6 +11,12 @@ $ jupyter notebook password
 $ sed -i '' s/"#c.NotebookApp.ip = 'localhost'"/"c.NotebookApp.ip = '0.0.0.0'"/ .jupyter/jupyter_notebook_config.py
 ```
 
+## sublime.sh
+Sublime Text の設定
+```console
+$ curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/sublime.sh | zsh
+```
+
 ## .Brewfile
 Homebrew は便利。
 
