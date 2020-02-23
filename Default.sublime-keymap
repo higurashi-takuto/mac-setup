@@ -1,0 +1,12 @@
+[
+    {
+        "keys": ["super+shift+a"],
+        "command": "open_dir_in_sublime_text",
+        "args": { "dir": "$working_dir" },
+    },
+    {
+        "keys": ["super+shift+f"],
+        "command": "open_dir",
+        "args": { "dir": "$working_dir" },
+    },
+]
