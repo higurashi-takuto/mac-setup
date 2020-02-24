@@ -11,6 +11,12 @@ $ jupyter notebook password
 $ sed -i '' s/"#c.NotebookApp.ip = 'localhost'"/"c.NotebookApp.ip = '0.0.0.0'"/ .jupyter/jupyter_notebook_config.py
 ```
 
+MacBook 系を使っている場合は充電音を切るため、以下のコマンドも実行する。
+```console
+$ defaults write com.apple.PowerChime ChimeOnNoHardware -bool true
+$ killall PowerChime
+```
+
 ## sublime.sh
 Sublime Text の設定
 ```console
