@@ -1,0 +1,4 @@
+// TrailingSpaces Settings - User
+{
+    "trailing_spaces_regexp": "　|[ \t]+"
+}
