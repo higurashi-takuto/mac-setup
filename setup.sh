@@ -54,6 +54,11 @@ sed -i '' s/'#c.NotebookApp.open_browser = True'/'c.NotebookApp.open_browser = F
 sed -i '' s/"#c.NotebookApp.notebook_dir = ''"/"c.NotebookApp.notebook_dir = '\/Users\/takuto\/'"/ .jupyter/jupyter_notebook_config.py
 launchctl load ~/Library/LaunchAgents/jupyterlab.plist
 
+# ruby
+NEWEST_RUBY_VERSION=$(rbenv install -l | grep -v '[a-zA-Z]' | tail -1)
+rbenv install $NEWEST_RUBY_VERSION
+rbenv global $NEWEST_RUBY_VERSION
+
 # wallpaper
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/wallpaper/KaguyaLuna.png > Pictures/KaguyaLuna.png
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/wallpaper/HatsuneMiku.png > Pictures/HatsuneMiku.png

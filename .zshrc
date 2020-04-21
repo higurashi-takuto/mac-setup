@@ -8,6 +8,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 # nodenv
 export PATH="$HOME/.nodenv/bin:$PATH"
 eval "$(nodenv init -)"
@@ -28,6 +32,7 @@ alias pylo="pyenv local"
 alias pyac="pyenv activate"
 alias pyde="pyenv deactivate"
 alias pyun="pyenv shell --unset"
+alias pyhttp="python -m http.server 8000"
 alias freeze="pip freeze > requirements.txt"
 
 # function

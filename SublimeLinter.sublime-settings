@@ -3,7 +3,8 @@
     "paths": {
         "linux": [],
         "osx": [
-            "/Users/takuto/.pyenv/versions/sublimetext/bin/"
+            "/Users/takuto/.pyenv/versions/sublimetext/bin/",
+            "/Users/takuto/.rbenv/versions/shims/"
         ],
         "windows": []
     },

@@ -4,4 +4,5 @@ git clone https://github.com/higurashi-takuto/sublime-dark-theme.git ~/Library/A
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/Package\ Control.sublime-settings > ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/Preferences.sublime-settings > ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/SublimeLinter.sublime-settings > ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimeLinter.sublime-settings
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/trailing_spaces.sublime-settings > ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/trailing_spaces.sublime-settings
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/Default.sublime-keymap > ~/Library/Application\ Support/Sublime\ Merge/Packages/User/Default.sublime-keymap

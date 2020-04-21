@@ -18,6 +18,7 @@
 		"Smart Delete",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
+		"SublimeLinter-ruby",
 		"SyncedSideBar",
 		"TrailingSpaces",
 		"vue-syntax-highlight"
