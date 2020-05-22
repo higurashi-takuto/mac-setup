@@ -36,6 +36,7 @@ alias pyhttp="python -m http.server 8000"
 alias freeze="pip freeze > requirements.txt"
 alias ni="npm install"
 alias ns="npm run start"
+alias nb="npm run build"
 alias nw="npm run watch"
 alias nd="npm run dev"
 
