@@ -34,6 +34,10 @@ alias pyde="pyenv deactivate"
 alias pyun="pyenv shell --unset"
 alias pyhttp="python -m http.server 8000"
 alias freeze="pip freeze > requirements.txt"
+alias ni="npm install"
+alias ns="npm run start"
+alias nw="npm run watch"
+alias nd="npm run dev"
 
 # function
 function cd(){
