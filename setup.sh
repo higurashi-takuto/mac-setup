@@ -18,7 +18,7 @@ setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
-sed -i '' s/'sorin'/'powerline'/ .zprezto/runcoms/zpreztorc
+sed -i '' s/'sorin'/'agnoster'/ .zprezto/runcoms/zpreztorc
 
 # git
 curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.gitignore_global
