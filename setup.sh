@@ -31,28 +31,12 @@ curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/reso
 source .zshrc
 
 # python
-\mkdir Library/LaunchAgents
-curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/jupyterlab.plist > Library/LaunchAgents/jupyterlab.plist
 NEWEST_PYTHON_VERSION=$(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1 | tr -d ' ')
 env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install $NEWEST_PYTHON_VERSION
 pyenv virtualenv $NEWEST_PYTHON_VERSION global
-pyenv virtualenv $NEWEST_PYTHON_VERSION sublimetext
-pyenv virtualenv $NEWEST_PYTHON_VERSION jupyterlab
 pyenv global global
 pip install --upgrade pip
 pip install --upgrade setuptools
-pyenv activate sublimetext
-pip install --upgrade pip
-pip install --upgrade setuptools
-pip install flake8
-pyenv deactivate
-pyenv activate jupyterlab
-pip install jupyterlab
-jupyter notebook --generate-config
-pyenv deactivate
-sed -i '' s/'#c.NotebookApp.open_browser = True'/'c.NotebookApp.open_browser = False'/ .jupyter/jupyter_notebook_config.py
-sed -i '' s/"#c.NotebookApp.notebook_dir = ''"/"c.NotebookApp.notebook_dir = '\/Users\/takuto\/'"/ .jupyter/jupyter_notebook_config.py
-launchctl load ~/Library/LaunchAgents/jupyterlab.plist
 
 # ruby
 NEWEST_RUBY_VERSION=$(rbenv install -l | grep -v '[a-zA-Z]' | tail -1)

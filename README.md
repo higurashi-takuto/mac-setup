@@ -11,6 +11,12 @@ Sublime Text / Sublime Merge の設定
 $ curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/sublime.sh | zsh
 ```
 
+## jupyter.sh
+JupyterLab の設定
+```console
+$ curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/jupyter.sh | zsh
+```
+
 ## resources/
 ### .Brewfile
 Homebrew は便利。
