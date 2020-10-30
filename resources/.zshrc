@@ -32,7 +32,7 @@ alias pylo="pyenv local"
 alias pyac="pyenv activate"
 alias pyde="pyenv deactivate"
 alias pyun="pyenv shell --unset"
-alias pyhttp="python -m http.server 8000"
+alias pyhttp=pyhttpl
 alias freeze="pip freeze > requirements.txt"
 alias ni="npm install"
 alias ns="npm run start"
@@ -60,5 +60,19 @@ function ignore(){
         curl -L "https://raw.githubusercontent.com/github/gitignore/master/${@}.gitignore" >> .gitignore
     else
         curl -L "https://raw.githubusercontent.com/github/gitignore/master/${@}.gitignore" > .gitignore
+    fi
+}
+function pyhttpl(){
+    if [ "$@" ]; then
+        python -m http.server --bind 127.0.0.1 "$@"
+    else
+        python -m http.server --bind 127.0.0.1 8000
+    fi
+}
+function pyhttpg(){
+    if [ "$@" ]; then
+        python -m http.server --bind 0.0.0.0 "$@"
+    else
+        python -m http.server --bind 0.0.0.0 8000
     fi
 }
