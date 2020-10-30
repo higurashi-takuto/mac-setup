@@ -55,7 +55,7 @@ function mkpyenv(){
     pip install --upgrade setuptools
     pyenv deactivate
 }
-fubction ignore(){
+function ignore(){
     if [ -e .gitignore ]; then
         curl -L "https://raw.githubusercontent.com/github/gitignore/master/${@}.gitignore" >> .gitignore
     else
