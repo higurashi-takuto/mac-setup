@@ -31,11 +31,8 @@ cask "vivaldi"
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
 mas "FreeMan", id: 510934532
-mas "Keynote", id: 409183694
-mas "LINE", id: 539883307
 mas "Logic Pro X", id: 634148309
+mas "MainStage", id: 634159523
 mas "Motion", id: 434290957
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "The Unarchiver", id: 425424353
 mas "Tweetbot", id: 1384080005
