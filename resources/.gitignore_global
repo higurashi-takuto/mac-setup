@@ -1,3 +1,4 @@
+# https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -15,6 +16,8 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# https://github.com/github/gitignore/blob/master/Global/SublimeText.gitignore
 *.tmlanguage.cache
 *.tmPreferences.cache
 *.stTheme.cache
@@ -31,9 +34,13 @@ Package Control.user-ca-bundle
 oscrypto-ca-bundle.crt
 bh_unicode_properties.cache
 GitHub.sublime-settings
+
+# https://github.com/github/gitignore/blob/master/Global/Dropbox.gitignore
 .dropbox
 .dropbox.attr
 .dropbox.cache
+
+# 
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -41,3 +48,38 @@ GitHub.sublime-settings
 !.vscode/extensions.json
 *.code-workspace
 .history/
+
+# https://github.com/github/gitignore/blob/master/Global/Backup.gitignore
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# https://github.com/github/gitignore/blob/master/Global/Archives.gitignore
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.gzip
+*.tgz
+*.bzip
+*.bzip2
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.xar
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+*.txz
