@@ -26,6 +26,7 @@ cask "glyphs"
 cask "google-backup-and-sync"
 cask "google-chrome"
 cask "iterm2"
+cask "native-access"
 cask "obs"
 cask "obs-virtualcam"
 cask "slack"
@@ -33,6 +34,7 @@ cask "sublime-merge"
 cask "sublime-text"
 cask "visual-studio-code"
 cask "vivaldi"
+cask "zoomus"
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
 mas "FreeMan", id: 510934532
