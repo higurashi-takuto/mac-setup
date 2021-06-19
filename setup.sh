@@ -27,7 +27,7 @@ git config --global core.excludesfile ~/.gitignore_global
 # .zsh
 echo /usr/local/bin/zsh | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/zsh
-curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.zshrc >| .zprezto/runcoms/zshrc
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.zshrc > .zprezto/runcoms/zshrc
 source .zshrc
 
 # python
@@ -42,6 +42,12 @@ pip install --upgrade setuptools
 NEWEST_RUBY_VERSION=$(rbenv install -l | grep -v '[a-zA-Z]' | tail -1)
 rbenv install $NEWEST_RUBY_VERSION
 rbenv global $NEWEST_RUBY_VERSION
+
+# node
+NEWEST_NODE14_VERSION=$(nodenv install -l | grep -v '[a-zA-Z]' | grep -e '^14\.?*' | tail -1 | tr -d ' ')
+nodenv install $NEWEST_NODE14_VERSION
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.vuerc > .vuerc
+
 
 # wallpaper
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/wallpapers/KaguyaLuna.png > Pictures/KaguyaLuna.png
