@@ -1,0 +1,29 @@
+{
+  "useTaobaoRegistry": true,
+  "packageManager": "npm",
+  "presets": {
+    "Vue3+TS+Router+Vuex+ESLintStandard+DartSASS+Jest": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": false,
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-router": {
+          "historyMode": true
+        },
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "standard",
+          "lintOn": [
+            "save"
+          ]
+        },
+        "@vue/cli-plugin-unit-jest": {}
+      },
+      "vueVersion": "3",
+      "cssPreprocessor": "dart-sass"
+    }
+  }
+}
