@@ -16,12 +16,14 @@
 		"Package Control",
 		"Pretty JSON",
 		"SideBarEnhancements",
+		"Simple JSX",
 		"Smart Delete",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
 		"SublimeLinter-ruby",
 		"SyncedSideBar",
 		"TrailingSpaces",
+		"TypeScript",
 		"vue-syntax-highlight"
 	],
 	"repositories":
