@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/sublime-dark-theme/MonokaiDark.sublime-color-scheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"font_face": "Menlo",
 	"font_size": 16,
 	"ignored_packages":
@@ -7,5 +7,7 @@
 		"Vintage"
 	],
 	"theme": "Adaptive.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"hide_tab_scrolling_buttons": true,
+	"file_tab_style": "square",
 }

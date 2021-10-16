@@ -1,6 +1,8 @@
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ln -s /Applications/Sublime\ Merge.app/Contents/SharedSupport/bin/smerge /usr/local/bin/smerge
-git clone https://github.com/higurashi-takuto/sublime-dark-theme.git ~/Library/Application\ Support/Sublime\ Text/Packages/User/sublime-dark-theme
+
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/sublime/Adaptive.sublime-theme > ~/Library/Application\ Support/Sublime\ Text/Packages/User/Adaptive.sublime-theme
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/sublime/Monokai.sublime-color-scheme > ~/Library/Application\ Support/Sublime\ Text/Packages/User/Monokai.sublime-color-scheme
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/sublime/OmniMarkupPreviewer.sublime-settings > ~/Library/Application\ Support/Sublime\ Text/Packages/User/OmniMarkupPreviewer.sublime-settings
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/sublime/Package\ Control.sublime-settings > ~/Library/Application\ Support/Sublime\ Text/Packages/User/Package\ Control.sublime-settings
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/sublime/Preferences.sublime-settings > ~/Library/Application\ Support/Sublime\ Text/Packages/User/Preferences.sublime-settings
