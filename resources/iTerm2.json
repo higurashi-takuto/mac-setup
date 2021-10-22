@@ -1,26 +1,18 @@
 {
-  "Ansi 7 Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0.73333334922790527
-  },
+  "Custom Directory" : "No",
   "Tags" : [
 
   ],
   "Ansi 12 Color" : {
-    "Green Component" : 0.3333333432674408,
-    "Red Component" : 0.3333333432674408,
+    "Green Component" : 0.333,
+    "Red Component" : 0.333,
     "Blue Component" : 1
   },
-  "Ansi 8 Color" : {
-    "Green Component" : 0.3333333432674408,
-    "Red Component" : 0.3333333432674408,
-    "Blue Component" : 0.3333333432674408
-  },
-  "Ansi 9 Color" : {
-    "Green Component" : 0.3333333432674408,
-    "Red Component" : 1,
-    "Blue Component" : 0.3333333432674408
+  "Normal Font" : "MenloForPowerline-Regular 18",
+  "Ansi 4 Color" : {
+    "Green Component" : 0,
+    "Red Component" : 0,
+    "Blue Component" : 0.733
   },
   "Bold Color" : {
     "Green Component" : 1,
@@ -29,8 +21,8 @@
   },
   "Ansi 5 Color" : {
     "Green Component" : 0,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0.73333334922790527
+    "Red Component" : 0.733,
+    "Blue Component" : 0.733
   },
   "Use Non-ASCII Font" : false,
   "Rows" : 25,
@@ -40,8 +32,8 @@
   "Use Bright Bold" : true,
   "Ansi 10 Color" : {
     "Green Component" : 1,
-    "Red Component" : 0.3333333432674408,
-    "Blue Component" : 0.3333333432674408
+    "Red Component" : 0.333,
+    "Blue Component" : 0.333
   },
   "Ambiguous Double Width" : false,
   "Jobs to Ignore" : [
@@ -57,9 +49,9 @@
     "Blue Component" : 1
   },
   "Foreground Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0.73333334922790527
+    "Green Component" : 0.733,
+    "Red Component" : 0.733,
+    "Blue Component" : 0.733
   },
   "Working Directory" : "\/Users\/takuto",
   "Blinking Cursor" : false,
@@ -72,8 +64,8 @@
   "Mouse Reporting" : true,
   "Screen" : -1,
   "Selection Color" : {
-    "Green Component" : 0.8353000283241272,
-    "Red Component" : 0.70980000495910645,
+    "Green Component" : 0.835,
+    "Red Component" : 0.710,
     "Blue Component" : 1
   },
   "Only The Default BG Color Uses Transparency" : false,
@@ -81,7 +73,7 @@
   "Idle Code" : 0,
   "Background Image Mode" : 2,
   "Ansi 13 Color" : {
-    "Green Component" : 0.3333333432674408,
+    "Green Component" : 0.333,
     "Red Component" : 1,
     "Blue Component" : 1
   },
@@ -99,15 +91,15 @@
   "Background Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.12549019607843137,
+    "Blue Component" : 0.125,
     "Alpha Component" : 1,
-    "Green Component" : 0.062745098039215672
+    "Green Component" : 0.063
   },
   "Character Encoding" : 4,
   "Ansi 11 Color" : {
     "Green Component" : 1,
     "Red Component" : 1,
-    "Blue Component" : 0.3333333432674408
+    "Blue Component" : 0.333
   },
   "Use Italic Font" : true,
   "Unlimited Scrollback" : false,
@@ -275,7 +267,6 @@
   },
   "Window Type" : 0,
   "Blur Radius" : 30,
-  "Background Image Location" : "\/Users\/takuto\/Pictures\/HatsuneMiku.png",
   "Blur" : true,
   "Scrollback Lines" : 1000,
   "Send Code When Idle" : false,
@@ -358,7 +349,7 @@
   "Silence Bell" : false,
   "Ansi 14 Color" : {
     "Green Component" : 1,
-    "Red Component" : 0.3333333432674408,
+    "Red Component" : 0.333,
     "Blue Component" : 1
   },
   "Name" : "Default",
@@ -369,44 +360,52 @@
   },
   "Shortcut" : "",
   "Cursor Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0.73333334922790527
-  },
-  "Transparency" : 0.25,
-  "Ansi 1 Color" : {
-    "Green Component" : 0,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0
-  },
-  "Horizontal Spacing" : 1,
-  "Custom Directory" : "No",
-  "Ansi 4 Color" : {
-    "Green Component" : 0,
-    "Red Component" : 0,
-    "Blue Component" : 0.73333334922790527
+    "Green Component" : 0.733,
+    "Red Component" : 0.733,
+    "Blue Component" : 0.733
   },
   "Ansi 0 Color" : {
     "Green Component" : 0,
     "Red Component" : 0,
     "Blue Component" : 0
   },
-  "Guid" : "3C48F467-1D3C-4111-BA5D-1D72AB10E3C1",
-  "Ansi 3 Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Red Component" : 0.73333334922790527,
+  "Guid" : "9452435A-005C-4CA9-9C5F-143D7EF3F04A",
+  "Transparency" : 0.30,
+  "Ansi 1 Color" : {
+    "Green Component" : 0,
+    "Red Component" : 0.733,
     "Blue Component" : 0
   },
-  "Normal Font" : "MenloForPowerline-Regular 18",
   "Ansi 2 Color" : {
-    "Green Component" : 0.73333334922790527,
+    "Green Component" : 0.733,
     "Red Component" : 0,
     "Blue Component" : 0
+  },
+  "Ansi 3 Color" : {
+    "Green Component" : 0.733,
+    "Red Component" : 0.733,
+    "Blue Component" : 0
+  },
+  "Horizontal Spacing" : 1,
+  "Ansi 7 Color" : {
+    "Green Component" : 0.733,
+    "Red Component" : 0.733,
+    "Blue Component" : 0.733
+  },
+  "Ansi 8 Color" : {
+    "Green Component" : 0.333,
+    "Red Component" : 0.333,
+    "Blue Component" : 0.333
+  },
+  "Ansi 9 Color" : {
+    "Green Component" : 0.333,
+    "Red Component" : 1,
+    "Blue Component" : 0.333
   },
   "Right Option Key Sends" : 0,
   "Ansi 6 Color" : {
-    "Green Component" : 0.73333334922790527,
+    "Green Component" : 0.733,
     "Red Component" : 0,
-    "Blue Component" : 0.73333334922790527
+    "Blue Component" : 0.733
   }
 }
