@@ -40,7 +40,7 @@ GitHub.sublime-settings
 .dropbox.attr
 .dropbox.cache
 
-# 
+# https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
