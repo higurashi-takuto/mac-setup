@@ -31,7 +31,7 @@ alias mkdir=mkcd
 alias pylo="pyenv local"
 alias pyac="pyenv activate"
 alias pyde="pyenv deactivate"
-alias pyun="pyenv shell --unset"
+alias pyun="pyenv local --unset"
 alias pyhttp=pyhttpl
 alias freeze="pip freeze > requirements.txt"
 alias ni="npm install"
@@ -50,10 +50,9 @@ function mkcd(){
 function mkpyenv(){
     PYTHONVERSION=$(pyenv versions | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1 | tr -d ' ')
     pyenv virtualenv $PYTHONVERSION "$@"
-    pyenv activate "$@"
+    pyenv local "$@"
     pip install --upgrade pip
     pip install --upgrade setuptools
-    pyenv deactivate
 }
 function ignore(){
     if [ -e .gitignore ]; then
