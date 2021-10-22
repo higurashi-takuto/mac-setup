@@ -44,12 +44,9 @@ rbenv install $NEWEST_RUBY_VERSION
 rbenv global $NEWEST_RUBY_VERSION
 
 # node
-NEWEST_NODE14_VERSION=$(nodenv install -l | grep -v '[a-zA-Z]' | grep -e '^14\.?*' | tail -1 | tr -d ' ')
-nodenv install $NEWEST_NODE14_VERSION
+NEWEST_NODE16_VERSION=$(nodenv install -l | grep -v '[a-zA-Z]' | grep -e '^16\.?*' | tail -1 | tr -d ' ')
+nodenv install $NEWEST_NODE16_VERSION
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.vuerc > .vuerc
 
-
-# wallpaper
-curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/wallpapers/KaguyaLuna.png > Pictures/KaguyaLuna.png
-curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/wallpapers/HatsuneMiku.png > Pictures/HatsuneMiku.png
-wallpaper set ~/Pictures/KaguyaLuna.png
+# tmux
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.tmux.conf > .tmux.conf
