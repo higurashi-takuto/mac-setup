@@ -91,9 +91,9 @@
   "Background Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.125,
+    "Blue Component" : 0,
     "Alpha Component" : 1,
-    "Green Component" : 0.063
+    "Green Component" : 0
   },
   "Character Encoding" : 4,
   "Ansi 11 Color" : {
