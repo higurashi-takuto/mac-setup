@@ -25,8 +25,8 @@ curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/res
 git config --global core.excludesfile ~/.gitignore_global
 
 # .zsh
-echo /usr/local/bin/zsh | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/zsh
+echo /opt/homebrew/bin/zsh | sudo tee -a /etc/shells
+chsh -s /opt/homebrew/bin/zsh
 curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.zshrc > .zprezto/runcoms/zshrc
 source .zshrc
 
