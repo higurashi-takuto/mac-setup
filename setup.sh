@@ -35,3 +35,7 @@ curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/main/resou
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs lts
 asdf global nodejs lts
+
+# 設定ファイルダウンロード
+curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/main/resources/.tmux.conf
+curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/main/resources/iTerm2.json
