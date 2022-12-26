@@ -6,7 +6,7 @@ killall Finder
 
 # Homebrew
 if [ ! -e .Brewfile ]; then
-  curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.Brewfile
+  curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/main/resources/.Brewfile
 fi
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew tap homebrew/bundle
@@ -21,17 +21,17 @@ done
 sed -i '' s/'sorin'/'agnoster'/ .zprezto/runcoms/zpreztorc
 
 # git
-curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.gitignore_global
+curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/main/resources/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
 # .zsh
 echo /opt/homebrew/bin/zsh | sudo tee -a /etc/shells
 chsh -s /opt/homebrew/bin/zsh
-curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.zshrc > .zprezto/runcoms/zshrc
+curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/main/resources/.zshrc > .zprezto/runcoms/zshrc
 source .zshrc
 
 # asdf
-curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/resources/.asdfrc
+curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/main/resources/.asdfrc
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs lts
 asdf global nodejs lts
