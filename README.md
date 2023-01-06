@@ -2,6 +2,7 @@
 ## setup.sh
 ```console
 $ xcode-select --install
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 $ curl -L https://raw.githubusercontent.com/higurashi-takuto/mac-setup/master/setup.sh | zsh
 ```
 
