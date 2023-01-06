@@ -8,7 +8,6 @@ killall Finder
 if [ ! -e .Brewfile ]; then
   curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/main/resources/.Brewfile
 fi
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew tap homebrew/bundle
 brew bundle --global
 
