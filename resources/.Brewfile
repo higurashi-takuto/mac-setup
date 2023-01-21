@@ -29,4 +29,3 @@ mas "Logic Pro", id: 634148309
 mas "MainStage", id: 634159523
 mas "Motion", id: 434290957
 mas "The Unarchiver", id: 425424353
-mas "Tweetbot", id: 1384080005
