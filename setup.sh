@@ -31,6 +31,8 @@ source .zshrc
 
 # asdf
 curl -OL https://raw.githubusercontent.com/higurashi-takuto/mac-setup/main/resources/.asdfrc
+asdf plugin-add direnv
+asdf direnv setup --shell zsh --version latest
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs lts
 asdf global nodejs lts
